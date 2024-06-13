@@ -33,6 +33,7 @@
   cursor: pointer;
 }
 
+
 .header_right ul {
   width: 150%;
   display: flex;
@@ -40,3 +41,26 @@
   list-style: none;
   cursor: pointer;
 }
+
+.header_right ul li {
+  transform: scale(1);
+    /* Initial scale */
+  transition: transform 0.1s ease-in-out;
+}
+
+.header_right ul li:hover {
+  transform: scale(1.1);
+  /* Initial scale */
+}
+
+.header_left ul li {
+  transform: scale(1);
+    /* Initial scale */
+  transition: transform 0.1s ease-in-out;
+}
+
+.header_left ul li:hover {
+  transform: scale(1.1);
+  /* Initial scale */
+}
+
