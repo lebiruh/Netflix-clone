@@ -3,6 +3,7 @@
   color: gray;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .footer_inner_container {
@@ -28,6 +29,7 @@
   flex-direction: column;
   justify-content: space-around;
   height: 12vh;
+  text-decoration: underline;
 }
 
 .footer_data ul li {
@@ -39,7 +41,9 @@
   align-items: center;
   justify-content: center;
   border: 1px solid #fff;
-  width: 10%;
+  border-radius: 5px;
+  width: 15%;
+  height: 35px;
   margin: 10px 0;
   cursor: pointer;
 }
