@@ -64,3 +64,11 @@
   /* Initial scale */
 }
 
+@media screen and (max-width: 960px) {
+  .header_left ul :nth-child(2), .header_left ul :nth-child(3), .header_left ul :nth-child(4), .header_left ul :nth-child(5), .header_left ul :nth-child(6), .header_left ul :nth-child(7) {
+    display: none;
+  }
+  .header_right ul {
+    width: 120%;
+  }
+}

@@ -14,33 +14,37 @@ const Footer = () => {
           <YouTubeIcon />
         </div>
         <div className='footer_data'>
-          <div>
-            <ul>
-              <li>Audio Description</li>
-              <li>Invester Relations</li>
-              <li>Legal Notice</li>
-            </ul>
+          <div className='footer_list_left'>
+            <div>
+              <ul>
+                <li>Audio Description</li>
+                <li>Invester Relations</li>
+                <li>Legal Notice</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Help Center</li>
+                <li>Jobs</li>
+                <li>Cookie Preferences</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <ul>
-              <li>Help Center</li>
-              <li>Jobs</li>
-              <li>Cookie Preferences</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>Gift Cards</li>
-              <li>Terms of Use</li>
-              <li>Corporate Information</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>Media Center</li>
-              <li>Privacy</li>
-              <li>Contact Us</li>
-            </ul>
+          <div className='footer_list_right'>
+            <div>
+              <ul>
+                <li>Gift Cards</li>
+                <li>Terms of Use</li>
+                <li>Corporate Information</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Media Center</li>
+                <li>Privacy</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
           </div> 
         </div>
         <div className='service_code'>
