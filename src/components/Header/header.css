@@ -33,6 +33,13 @@
   cursor: pointer;
 }
 
+.logo {
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.466);
+  border-radius: 50% 25% 50% 25%;
+  object-fit: contain;
+}
+
 
 .header_right ul {
   width: 150%;
